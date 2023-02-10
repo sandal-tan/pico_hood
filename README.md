@@ -15,3 +15,4 @@ Once the Pico is plugged in and configured to run Micropython, you can install t
 ```
 
 `DEVICE` should refer to the USB device referencing the Pico. On Mac OS, this is something like `/dev/cu.usbmodemxxyyzz`
+[1]: https://python-poetry.org/
