@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pico-hood"
+version = "0.1.0"
+description = ""
+authors = ["Ian Baldwin <iantbaldwin@mac.com>"]
+readme = "README.md"
+packages = [{include = "pico_hood"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rshell = "^0.0.31"
+adafruit-ampy = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
